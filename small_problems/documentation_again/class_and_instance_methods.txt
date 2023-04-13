@@ -1,0 +1,6 @@
+# Class_and_instance_methods
+
+File::path is a class method. It returns a string representation of a specified path.
+
+File#path is an instance method. It returns the path of the calling File object.
+

@@ -1,0 +1,8 @@
+# default_arguments_in_the_middle.txt
+
+This code will raise a syntax error. The documentation says that arguments with default values need
+to be gropued together; I assume that means they need to be on either end and not in the middle
+(though this is not stated excplicitly).
+
+If this syntax IS allowed, this code should print:
+[4, 5, 3, 6]
