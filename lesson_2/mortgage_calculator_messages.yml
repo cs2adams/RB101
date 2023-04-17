@@ -5,6 +5,9 @@ prompt_apr:                     'Thanks! Now please enter the annual percentage 
 valid_percentage:               'Uh-oh, please enter a valid percentage between 0 and 1.'
 prompt_loan_duration_unit:           'Thanks! Would you like to enter the loan duration in months or years? (m/y)'
 duration_unit_not_recognized:   'is not recognized. Please try again'
-loan_duration:                  'Now  enter the duration of the loan in your desired units.'
+loan_duration:                  'Now  enter the duration of the loan in'
 invalid_duration:               'is not a valid loan duration. Please enter an integer.'
 monthly_payment:                'Your monthly payment is'
+another_calculation:            'Would you like to perform another calculation? (y/n)'
+invalid_calc_response:          "I'm sorry, I didn't catch that. Please enter 'y' or 'n'"
+goodbye:                        'Ok, have a nice day.'
