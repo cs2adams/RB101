@@ -21,23 +21,7 @@ def valid_number?(num)
 end
 
 def valid_integer?(num)
-  return false if num == '' || num == '.'
-  num_periods = 0
-  num_array = num.split('')
-  valid_before_decimal = ['.', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
-
-  num_array.each do |digit|
-    if num_periods == 0
-      return false if !valid_before_decimal.include?(digit)
-    elsif num_periods == 1
-      return false if digit != '0'
-    else
-      return false
-    end
-
-    num_periods += 1 if digit == '.'
-  end
-  true
+  valid_number?(num) && num.to_f.floor - num.to_f == 0
 end
 
 # Request loan amount and validate
