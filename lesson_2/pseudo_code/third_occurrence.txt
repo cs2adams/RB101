@@ -1,0 +1,38 @@
+#third_occurrence.txt
+
+# CASUAL PSEUDO-CODE
+
+# Given a string and a target character
+
+Initialize a counter with value zero
+Iterate through the characters in the string
+  - Read each character in the string
+  - If the current character is equal to the target characte
+      - Increment the counter
+  - If the counter is equal to 3
+      - Return the current index
+
+
+# FORMAL PSEUDO-CODE
+
+START
+#Given a string "string" and character "char"
+
+SET counter = 0
+SET index = 0
+SET third_occurrence = nil
+
+WHILE index < length of string
+  SET current_char = character in string at current index
+  
+  IF current_char == char
+    counter = counter + 1
+
+  IF counter == 3
+    SET third_occurrence = index
+  
+  index = index + 1
+
+PRINT third_occurrence
+
+END

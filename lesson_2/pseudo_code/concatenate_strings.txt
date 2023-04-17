@@ -1,0 +1,25 @@
+# concatenate_strings.txt
+
+# CASUAL PSEUDO-CODE
+Given an array of strings.
+Initialize an empty string.
+Iterate through the array of strings.
+- Remove each element
+- Concatenate the removed element on the end of the new string.
+
+# FORMAL PSEUDO-CODE
+
+START
+#Given an array of strings called "string_array"
+
+SET new_string = ""
+SET iterator = 1
+
+WHILE iterator <= length of string_array
+  SET current_string = string_array at space "iterator"
+  new_string = concatenation of new_string and current_string
+  iterator = iterator + 1
+
+PRINT new_string
+
+END

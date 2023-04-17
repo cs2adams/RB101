@@ -1,0 +1,15 @@
+# Sum_of_integers.txt
+
+#CASUAL PSEUDO-CODE
+Given two integers.
+Return the sum of the two ingers.
+
+#FORMAL PSEUDO-CODE
+# Given two integers.
+START
+
+SET sum = sum of the two integers
+PRINT sum
+
+END
+

@@ -1,0 +1,37 @@
+# merge_arrays.txt
+
+# CASUAL PSEUDO-CODE
+
+Given two equal length arrays "array1" and "array2"
+
+Initialize an iterator
+Initialize "merged_array"
+
+Iterate along array1, tracking the current index with iterator.
+  - for each iteration, push the value of array1 at the current index onto new_array
+  - Then push the value of array2 at the current index onto new_array
+  - Increment the iterator
+
+
+After iterating through, return new_array
+
+# FORMAL PSEUDO-CODE
+
+START
+
+# Given two equal-length numeric arrays, "array1" and "array2"
+
+SET index = 0
+SET new_array = empty array
+
+WHILE index < size of array1
+  SET array1_value = array1 value at current index
+  SET array2_value = array2 value at current index
+
+  new_array = concatenation of new_array and array1_value
+  new_array = concatenation of new_array and array_2 value
+  index = index + 1
+
+PRINT new_array
+
+END

@@ -1,0 +1,27 @@
+#every_other_integer.txt
+
+# CASUAL PSEUDO-CODE
+Given an array of integers.
+
+Define an empty array
+Iterate through the array.
+  - if current array index is odd
+      Push the array element at current index onto new array
+
+
+# FORMAL PSUEDO-CODE
+
+START
+# Given an array of integers "int_array"
+
+SET iterator = 1
+SET new_array = empty array
+
+WHILE iterator <= length of int_array
+  IF iterator is odd
+    SET current_int = value of int_array at space "iterator"
+    new_array = new_array with current_int pushed on to the end
+  
+  iterator = iterator + 1
+
+PRINT new_array
