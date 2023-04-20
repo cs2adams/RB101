@@ -1,0 +1,8 @@
+# string_assignment.txt
+The code will print:
+
+BOB
+BOB
+
+This is becaue name and save_name are assigned to the same object. name.upcase! is then used to mutate that object,
+causing BOB to print both times.
