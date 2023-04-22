@@ -1,0 +1,4 @@
+# hard_1.txt
+
+# Code will throw an exception - no local variable "greeting"
+(Incorrect - greeting initialized to nil in if statement)
