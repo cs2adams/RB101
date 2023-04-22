@@ -1,0 +1,3 @@
+# question_2.txt
+
+a and c still reference the same object, b is different

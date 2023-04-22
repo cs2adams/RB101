@@ -1,0 +1,4 @@
+# question_3.txt
+
+String_arg_one looks like this now: pumpkins
+String_arg_two looks like this now: pumpkinsrutabaga
