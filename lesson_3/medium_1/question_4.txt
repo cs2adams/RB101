@@ -1,0 +1,4 @@
+# question_4.txt
+
+1st method will mutate the buffer argument in place
+2nd method will return a new buffer

@@ -1,0 +1,3 @@
+Yes, it will update the munsters' age and gender data.
+The each block will receive a reference to each family member's data hash.
+The [] method will then mutate each hash.
