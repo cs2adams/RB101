@@ -1,0 +1,13 @@
+# question_2.txt
+
+! Is the 'bang' (not) operator, it negates a boolean or truth/falsy value.
+
+In method names: '!' suggests the method mutates the caler,
+whereas '?' suggests that the method returns a boolean value
+
+1. != means 'not equal' - use to test inequality in conditional statements
+2. ! means 'not' - negates truth value. '!user_name' would return true if user_name == false or user_name == nil, false otherwise.
+3. ! after something indicates a method will mutate the caller. 'words.uniq!' will remove repeated characters from the 'words' array
+4. ? before something would indicate a ternary operation (expression before is evaluated, after: select between two outputs (one for true, one for false))
+5. ? after something - indicates a method will return a boolean value
+6. !!user_name will return false if user_name == nil or user_name == false, true otherwise

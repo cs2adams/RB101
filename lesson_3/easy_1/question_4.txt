@@ -1,0 +1,4 @@
+# question_4.txt
+
+numbers.delete_at(1) -> Deletes the number 2 from numbers and returns it
+numbers.delete(1)    -> Returns 1, deletes the number 1 from numbers
